@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#1C1E53]">
+  <div class="bg-[#1C1E53] backdrop-blur-sm bg-opacity-80 fixed w-full">
     <div class="container flex justify-between py-6 items-center ">
     <div class="cursor-pointer">
       <svg
