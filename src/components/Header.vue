@@ -55,12 +55,12 @@
       </svg>
     </div>
     <div class="flex items-center justify-between text-[#BBBBCB] gap-[52px]">
-        <router-link class="cursor-pointer" to="/">Home</router-link>
-        <router-link class="cursor-pointer" to="/about">About us</router-link>
-        <router-link class="cursor-pointer" to="/pricing">Pricing</router-link>
-        <router-link class="cursor-pointer" to="/work">Work</router-link>
-        <router-link class="cursor-pointer" to="/blog">Blog</router-link>
-        <button class="rounded-[41px] border-[2px] border-[#F4F6FC33] px-10 py-3" >Contact us</button>
+        <router-link class="cursor-pointer hover:text-white" to="/">Home</router-link>
+        <router-link class="cursor-pointer hover:text-white" to="/about">About us</router-link>
+        <router-link class="cursor-pointer hover:text-white" to="/pricing">Pricing</router-link>
+        <router-link class="cursor-pointer hover:text-white" to="/work">Work</router-link>
+        <router-link class="cursor-pointer hover:text-white" to="/blog">Blog</router-link>
+        <button class="rounded-[41px] border-[2px] border-[#F4F6FC33] px-10 py-3 hover:bg-[#F4F6FC33] hover:text-white">Contact us</button>
     </div>
   </div>
   </div>
