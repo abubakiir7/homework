@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-[#1C1E53] backdrop-blur-sm bg-opacity-80 fixed w-full">
+  <div :class="isScrolled ? 'backdrop-blur-sm bg-opacity-80' : ''"
+    class="bg-[#1C1E53] fixed w-full z-20 duration-200">
     <div class="container flex justify-between py-6 items-center ">
     <div class="cursor-pointer">
       <svg
@@ -66,6 +67,22 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref, onMounted, onUnmounted } from "vue";
+
+const isScrolled = ref(false);
+
+const handleScroll = () => {
+  isScrolled.value = window.scrollY > 0;
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
+</script>
 
 <style lang="scss" scoped></style>

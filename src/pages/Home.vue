@@ -67,11 +67,11 @@
         </div>
         <div class="grid grid-cols-3 gap-4">
           <div class="col-span-2">
-            <img src="/Card.png" alt="" />
+            <img src="/Card.png" alt="" class="w-full" />
           </div>
           <div>
             <img src="/second.png" alt="" />
-            <img class="pl-2 pt-8" src="/third.png" alt="" />
+            <img class="pl-2 pt-8 w-full" src="/third.png" alt="" />
           </div>
         </div>
       </div>
