@@ -16,22 +16,24 @@
         </div>
       </div>
       <div class="flex gap-2 items-center">
-        <button class="py-2 px-3 pr-4 rounded-[100%] bg-white" @click="previous">
-          <svg
-            width="13"
-            height="22"
-            viewBox="0 0 13 22"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              opacity="0.6"
-              d="M11.5859 -1.23626e-07L13 3.21951L3.96947 10.9106L13 18.7805L11.5859 22L9.06922e-07 11.626L1.06329e-06 9.8374L11.5859 -1.23626e-07Z"
-              fill="#282938"
-            />
-          </svg>
+        <button
+          :class="
+            id == 0
+              ? 'py-2 px-3 pr-4 rounded-[100%] bg-white'
+              : 'py-2 px-3 pr-4 rounded-[100%] bg-[#5239FA]'
+          "
+          @click="previous"
+        >
+          <span class="icon-[iconamoon--arrow-right-2-light]"></span>
         </button>
-        <button class="py-2 px-3 pl-4 rounded-[100%] bg-[#5239FA]" @click="next">
+        <button
+          :class="
+            id == clientsComment.length - 1
+              ? 'py-2 px-3 pr-4 rounded-[100%] bg-white'
+              : 'py-2 px-3 pr-4 rounded-[100%] bg-[#5239FA]'
+          "
+          @click="next"
+        >
           <svg
             width="13"
             height="22"
@@ -51,7 +53,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 
 const clientsComment = [
   {
@@ -63,6 +65,12 @@ const clientsComment = [
   {
     text: '"The best agency we’vDFGJDSAKHFEe worked with so far. They understand our product and are able to add new features with a great focus."',
     fullName: "Abdulloh aka",
+    position: "Vice President",
+    image: "mask.png",
+  },
+  {
+    text: '"The best agency we’vDFGJDSAKHFEe worked with so far. They understand our product and are able to add new features with a great focus."',
+    fullName: "Abdulloh adgfdgfda",
     position: "Vice President",
     image: "mask.png",
   },
