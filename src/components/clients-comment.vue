@@ -1,5 +1,5 @@
 <template>
-  <div class="w-3/4 pl-[120px] pr-3">
+  <div class="w-3/4 md:pl-[120px] pr-3 pt-6">
     <h2 class="leading-[48px] text-[36px] text-[#282938] font-medium">
       {{ clientsComment[id].text }}
     </h2>

@@ -2,7 +2,7 @@
   <div class="bg-white flex flex-col items-center pt-12 pb-10 group cursor-pointer" >
     <div class="relative mb-6 overflow-hidden bg-red-300 rounded-[50%]" >
       <img :src="item.img" alt="" />
-      <img class="absolute group-hover:bottom-0 bottom-0 duration-100 -bottom-full " src="/ellipse2.png" alt="">
+      <img class="absolute group-hover:bottom-0 bottom-0 duration-200 -bottom-[100%] " src="/ellipse2.png" alt="">
       <div class="absolute hidden group-hover:left-[50px] bottom-5 group-hover:flex gap-3">
         <img src="/twit.png" alt="">
         <img src="/twit.png" alt="">

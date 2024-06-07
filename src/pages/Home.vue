@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="bg-[#1C1E53]">
-      <div class="container flex py-40 items-center">
-        <div class="w-6/12 pr-[136px]">
+      <div class="container flex py-40 items-center justify-center flex-col md:flex-row text-center p-6">
+        <div class="md:w-6/12 md:pr-[136px]">
           <h1 class="font-semibold text-[54px] leading-[74px] text-white">
             Building stellar websites for early startups
           </h1>
@@ -12,12 +12,12 @@
           </p>
           <div class="flex items-center gap-2">
             <button
-              class="rounded-[41px] px-10 py-3 text-[#1B1C2B] bg-[#FCD980]"
+              class="rounded-[41px] px-10 md:py-3 py-2 md:py-3 text-[#1B1C2B] bg-[#FCD980]"
             >
               View our work
             </button>
             <button
-              class="flex items-center rounded-[41px] px-10 py-3 text-white"
+              class="flex items-center rounded-[41px] px-10 py-2 md:py-3 text-white"
             >
               <span class="mr-2">View pricing</span>
               <svg
@@ -35,7 +35,7 @@
             </button>
           </div>
         </div>
-        <div class="w-6/12">
+        <div class="md:w-6/12 pt-8 md:pt-0">
           <img src="/Illustration.png" alt="" />
         </div>
       </div>
@@ -43,9 +43,9 @@
     <!-- View our projects -->
 
     <div>
-      <div class="container my-10">
-        <div class="flex justify-between items-center">
-          <h2 class="text-[#282938] text-[48px] font-semibold">
+      <div class="container my-10 p-6">
+        <div class="flex justify-between items-center pb-10">
+          <h2 class="text-[#282938] md:text-[48px] text-[20px] font-semibold">
             View our projects
           </h2>
           <button class="flex items-center text-[#282938] group">
@@ -65,7 +65,7 @@
             </svg>
           </button>
         </div>
-        <div class="grid grid-cols-3 gap-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div class="col-span-2">
             <img src="/Card.png" alt="" class="w-full" />
           </div>
@@ -78,17 +78,17 @@
     </div>
 
     <!-- Design -->
-    <div class="bg-[#F4F6FC]">
-      <div class="container py-20">
+    <div class="bg-[#F4F6FC] md:py-20">
+      <div class="container flex items-center justify-center flex-col text-center md:p-0 p-6">
         <h3 class="leading-[28px] text-center font-medium text-[#282938]">
           Features
         </h3>
         <h2
-          class="leading-[64px] text-[48px] text-center text-[#282938] font-semibold mx-auto w-[600px] p-2 pb-10"
+         class="text-gray-800 md:text-[56px] text-[30px] font-bold md:leading-[74px] pb-10"
         >
           Design that solves problems, one product at a time
         </h2>
-        <div class="grid grid-cols-3 gap-x-8 gap-y-5">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-5">
           <template v-for="item in gridDatas" :key="item.id">
             <Grid1 :item />
           </template>
@@ -99,16 +99,16 @@
     <!-- Clients -->
 
     <div class="bg-[#F4F6FC]">
-      <div class="container flex">
-        <div class="w-1/4">
-          <h2 class="leading-[56px] text-[40px] text-[#282938] font-semibold">
+      <div class="container md:flex-nowrap flex-wrap flex p-6">
+        <div class="md:w-1/4 w-[100%]">
+          <h2 class="leading-[56px] text-[40px] text-[#282938] font-semibold md:text-left text-center">
             What our clients say about us
           </h2>
-          <p class="leading-[28px] text-[#282938] pt-6">
+          <p class="leading-[28px] text-[#282938] pt-6 md:text-left text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
           </p>
         </div>
-        <ClientsComment />
+        <ClientsComment class="w-full"/>
       </div>
     </div>
   </div>
