@@ -5,7 +5,7 @@
     >
       <div class="md:w-2/4 w-full">
         <div class="md:w-8/12 w-full">
-          <div class="cursor-pointer flex md:justify-cneter justify-left">
+          <div class="cursor-pointer flex md:justify-left md:mt-0 mt-6 justify-center">
             <svg
               width="122"
               height="25"
@@ -13,7 +13,7 @@
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g clip-path="url(#clip0_8650_297)">
+              <g clip-path="url(#clip0_8650_46)">
                 <path
                   d="M121.784 18.8719V21.891H119.252C116.549 21.806 115.105 20.3467 115.105 17.6055V10.7102H113.337V8.06174H115.105V5.09668H118.842V8.03086H121.699V10.6716H118.842V17.2349C118.842 18.1229 119.02 18.8333 120.387 18.8333L121.784 18.8719Z"
                   fill="white"
@@ -52,7 +52,7 @@
                 />
               </g>
               <defs>
-                <clipPath id="clip0_8650_297">
+                <clipPath id="clip0_8650_46">
                   <rect width="122" height="24.7089" fill="white" />
                 </clipPath>
               </defs>
@@ -115,7 +115,3 @@
     </div>
   </div>
 </template>
-
-<script setup></script>
-
-<style lang="scss" scoped></style>
