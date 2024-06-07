@@ -5,7 +5,7 @@
     >
       <div class="md:w-2/4 w-full">
         <div class="md:w-8/12 w-full">
-          <div class="cursor-pointer text-center">
+          <div class="cursor-pointer text-center bg-red-300">
             <svg
               width="122"
               height="25"
