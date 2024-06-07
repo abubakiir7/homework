@@ -2,7 +2,7 @@
   <div>
     <div class="bg-[#1C1E53]">
       <div
-        class="container flex py-40 items-center justify-center md:justify-start flex-col md:flex-row text-center md:text-left p-6"
+        class="container flex md:py-40 py-20 items-center justify-center md:justify-start flex-col md:flex-row text-center md:text-left p-6"
       >
         <div class="md:w-6/12 md:pr-[136px]">
           <h1 class="font-semibold text-[54px] leading-[74px] text-white">

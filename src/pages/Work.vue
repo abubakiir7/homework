@@ -2,7 +2,7 @@
   <div>
     <div class="bg-[#F4F6FC]">
       <div
-        class="container flex py-40 items-center justify-center flex-col text-center"
+        class="container flex md:py-40 py-20 items-center justify-center flex-col text-center"
       >
         <p class="text-gray-500 text-[18px] leading-[28px] mb-2">
           What we created

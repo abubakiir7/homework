@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="container flex py-40 items-center justify-center flex-col text-center"
+      class="container flex md:py-40 py-20 items-center justify-center flex-col text-center"
     >
       <h1 class="text-gray-800 text-[56px] font-bold leading-[74px] pb-5">
         Our Pricing Plans

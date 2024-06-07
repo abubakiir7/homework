@@ -2,7 +2,7 @@
   <div>
     <div class="container p-6">
       <!-- Intro_1 -->
-      <div class="flex justify-between items-center pt-52 pb-32 md:flex-nowrap flex-wrap">
+      <div class="flex justify-between items-center md:pt-52 pt-20 pb-32 md:flex-nowrap flex-wrap">
         <div class="md:w-1/2 md:pr-36">
           <h3 class="text-primary text-center md:text-left text-[20px] leading-[32px]">About us</h3>
           <h1 class="text-primary text-center md:text-left text-[56px] font-bold leading-[74px] pb-5">
