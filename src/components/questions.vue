@@ -7,12 +7,12 @@
           <p class="text-primary text-[20px] md:text-[26px] leading-[36px]">{{ item.question }}</p>
         </div>
         <button class="text-primary text-[26px] leading-[36px]">
-          {{ isOpen ? 'x' : '+' }}
+          {{ isOpen ? 'X' : '+' }}
         </button>
       </div>
       <transition name="fade">
         <div v-show="isOpen" class="mx-28 my-4">
-          <p class="text-primary text-[20px] leading-[32px]">{{ item.answer }}</p>
+          <p class="text-left text-gray-600 text-[20px] leading-[32px]">{{ item.answer }}</p>
         </div>
       </transition>
     </div>

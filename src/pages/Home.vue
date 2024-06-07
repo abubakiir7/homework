@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="bg-[#1C1E53]">
-      <div class="container flex py-40 items-center justify-center flex-col md:flex-row text-center p-6">
+      <div
+        class="container flex py-40 items-center justify-center md:justify-start flex-col md:flex-row text-center md:text-left p-6"
+      >
         <div class="md:w-6/12 md:pr-[136px]">
           <h1 class="font-semibold text-[54px] leading-[74px] text-white">
             Building stellar websites for early startups
@@ -10,9 +12,9 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
           </p>
-          <div class="flex items-center gap-2">
+          <div class="flex items-center justify-center md:justify-start gap-2">
             <button
-              class="rounded-[41px] px-10 md:py-3 py-2 md:py-3 text-[#1B1C2B] bg-[#FCD980]"
+              class="rounded-[41px] px-10 py-2 md:py-3 text-[#1B1C2B] bg-[#FCD980]"
             >
               View our work
             </button>
@@ -36,10 +38,11 @@
           </div>
         </div>
         <div class="md:w-6/12 pt-8 md:pt-0">
-          <img src="/Illustration.png" alt="" />
+          <img src="/Illustration.png" alt="Illustration" />
         </div>
       </div>
     </div>
+
     <!-- View our projects -->
 
     <div>
@@ -70,7 +73,7 @@
             <img src="/Card.png" alt="" class="w-full" />
           </div>
           <div>
-            <img src="/second.png" alt="" />
+            <img src="/second.png" class="w-full" alt="" />
             <img class="pl-2 pt-8 w-full" src="/third.png" alt="" />
           </div>
         </div>
@@ -79,12 +82,14 @@
 
     <!-- Design -->
     <div class="bg-[#F4F6FC] md:py-20">
-      <div class="container flex items-center justify-center flex-col text-center md:p-0 p-6">
+      <div
+        class="container flex items-center justify-center flex-col text-center md:p-0 p-6"
+      >
         <h3 class="leading-[28px] text-center font-medium text-[#282938]">
           Features
         </h3>
         <h2
-         class="text-gray-800 md:text-[56px] text-[30px] font-bold md:leading-[74px] pb-10"
+          class="text-gray-800 md:text-[56px] text-[30px] font-bold md:leading-[74px] pb-10"
         >
           Design that solves problems, one product at a time
         </h2>
@@ -101,14 +106,18 @@
     <div class="bg-[#F4F6FC]">
       <div class="container md:flex-nowrap flex-wrap flex p-6">
         <div class="md:w-1/4 w-[100%]">
-          <h2 class="leading-[56px] text-[40px] text-[#282938] font-semibold md:text-left text-center">
+          <h2
+            class="leading-[56px] text-[40px] text-[#282938] font-semibold md:text-left text-center"
+          >
             What our clients say about us
           </h2>
-          <p class="leading-[28px] text-[#282938] pt-6 md:text-left text-center">
+          <p
+            class="leading-[28px] text-[#282938] pt-6 md:text-left text-center"
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
           </p>
         </div>
-        <ClientsComment class="w-full"/>
+        <ClientsComment class="w-full" />
       </div>
     </div>
   </div>
@@ -162,20 +171,19 @@ const gridDatas = [
 const clientsComment = [
   {
     id: 1,
-    text: "\"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus.\"",
+    text: '"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."',
     fullName: "Jenny Wilson",
     position: "Vice President",
-    image: "mask.png"
+    image: "mask.png",
   },
   {
     id: 2,
-    text: "\"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus.\"",
+    text: '"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."',
     fullName: "Abdulloh aka",
     position: "Vice President",
-    image: "mask.png"
-  }
-
-]
+    image: "mask.png",
+  },
+];
 </script>
 
 <style lang="scss" scoped></style>

@@ -75,7 +75,7 @@ const teamMembers = [
         id:2,
         img: "/man.png",
         name: "John Smith",
-        position: "CTO"
+        position: "CEO"
     },
     {
         id:3,
