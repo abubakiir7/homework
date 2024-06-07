@@ -5,7 +5,7 @@
     >
       <div class="md:w-2/4 w-full">
         <div class="md:w-8/12 w-full">
-          <div class="cursor-pointer m-auto bg-red-600">
+          <div class="cursor-pointer flex md:justify-cneter justify-left">
             <svg
               width="122"
               height="25"
